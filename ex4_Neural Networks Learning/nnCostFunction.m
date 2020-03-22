@@ -85,8 +85,7 @@ for t = 1:m
     y_t = y_vec(t, :)';
 
     d3 = a3_t - y_t;
-    d2 = Theta2'*d3.*sigmoidGradient([1; Theta1*a1_t]);
-    d2 = d2(2:end);
+    d2 = Theta2(:, 2:end)'*d3.*sigmoidGradient(Theta1*a1_t);
 
     delta1 = delta1 + d2*a1_t';
     delta2 = delta2 + d3*a2_t';
