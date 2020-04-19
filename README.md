@@ -1,5 +1,7 @@
 # machine-learning
 
+Exercise projects on most popular machine learning algorithms
+
 ## ex1_Linear Regresssion
 
 - ex1.m - Octave/MATLAB script that steps you through the exercise
