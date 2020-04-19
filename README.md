@@ -1,6 +1,6 @@
 # machine-learning
 
-Exercise projects on most popular machine learning algorithms
+Exercise projects on basic machine learning algorithms
 
 ## ex1_Linear Regresssion
 
