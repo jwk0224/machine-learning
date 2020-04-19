@@ -86,7 +86,7 @@
 - linearKernel.m - Linear kernel for SVM
 - gaussianKernel.m - Gaussian kernel for SVM
 - dataset3Params.m - Parameters to use for Dataset 3
-- ex6 spam.m - Octave/MATLAB script for the second half of the exercise
+- ex6_spam.m - Octave/MATLAB script for the second half of the exercise
 - spamTrain.mat - Spam training set
 - spamTest.mat - Spam test set
 - emailSample1.txt - Sample email 1
@@ -107,8 +107,8 @@
 - ex7data1.mat - Example Dataset for PCA
 - ex7data2.mat - Example Dataset for K-means
 - ex7faces.mat - Faces Dataset
-- bird small.mat - Example Image
-- bird small.png - Example Image
+- bird_small.mat - Example Image
+- bird_small.png - Example Image
 - displayData.m - Displays 2D data stored in a matrix
 - drawLine.m - Draws a line over an exsiting figure
 - plotDataPoints.m - Initialization for K-means centroids
@@ -121,3 +121,23 @@
 - findClosestCentroids.m - Findclosestcentroids(usedinK-means)
 - computeCentroids.m - Compute centroid means (used in K-means)
 - kMeansInitCentroids.m - Initialization for K-means centroids
+
+## ex8_Anomaly Detection and Recommender Systems
+
+- ex8.m - Octave/MATLAB script for first part of exercise
+- ex8_cofi.m - Octave/MATLAB script for second part of exercise
+- ex8data1.mat - First example Dataset for anomaly detection
+- ex8data2.mat - Second example Dataset for anomaly detection
+- ex8_movies.mat - Movie Review Dataset
+- ex8_movieParams.mat - Parameters provided for debugging
+- multivariateGaussian.m - Computes the probability density function for a Gaussian distribution
+- visualizeFit.m - 2D plot of a Gaussian distribution and a dataset
+- checkCostFunction.m - Gradient checking for collaborative filtering
+- computeNumericalGradient.m - Numerically compute gradients
+- fmincg.m - Function minimization routine (similar to fminunc)
+- loadMovieList.m - Loads the list of movies into a cell-array
+- movie ids.txt - List of movies
+- normalizeRatings.m - Mean normalization for collaborative filtering
+- estimateGaussian.m - Estimate the parameters of a Gaussian distribution with a diagonal covariance matrix
+- selectThreshold.m - Find a threshold for anomaly detection
+- cofiCostFunc.m - Implement the cost function for collaborative filtering
