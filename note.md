@@ -481,7 +481,7 @@ or
 [U, S, V] = svd(Sigma)
 
 Choose smallest value of k for which  
-sum~k(S_ii)/sum~m(S_ii) >= 0.99 or 0.95
+sum ~k(S_ii)/sum ~m(S_ii) >= 0.99 or 0.95
 
 ## Anomaly Detection
 
