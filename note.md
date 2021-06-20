@@ -544,8 +544,8 @@ the objective is to learn the parameters(x, θ) that produce the best guess on m
 
 Both x (content feature) and θ (user preference on feature) parameters are simultaneously updated to minimize cost function
 
-1) Initialize x_1~x_nm, θ_1~θ_nu to small random values
-2) Minimize J(x_1~x_nm, θ_1~θ_nu) using gradient descent (or advanced optimization algorithm)
+1) Initialize x_1 ~x_nm, θ_1 ~θ_nu to small random values
+2) Minimize J(x_1 ~x_nm, θ_1 ~θ_nu) using gradient descent (or advanced optimization algorithm)
 3) Predict user’s rating on contents : θ’x 
 
 Find most related contents : smallest ||x_i - x_j||
