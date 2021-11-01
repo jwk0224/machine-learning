@@ -1,6 +1,6 @@
 # machine-learning
 
-Exercise projects on basic machine learning algorithms from Machine Learning course by Andrew Ng in Coursera
+Exercise projects on basic machine learning algorithms from Machine Learning course by Andrew Ng on Coursera
 
 ## ex1_Linear Regresssion
 
