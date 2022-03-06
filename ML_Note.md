@@ -1,4 +1,4 @@
-# Machine Learning
+# 1. Machine Learning
 
 ## Summary
 
@@ -57,7 +57,7 @@ Derive structure from data with little or no idea what results should look like
 - Clustering: automatically group data
 - Non-clustering: Cocktail Party Algorithm finds the structure in a chaotic environment
 
-# Linear Regression
+# 2. Linear Regression
 
 ## Cost Function
 
@@ -127,7 +127,7 @@ Common cause for noninvertibility
 - Redundant features, where two features are very closely related. Delete linearly dependent features
 - Too many features (ex. M <= n). Delete some features or use regularization
 
-# Logistic Regression
+# 3. Logistic Regression
 
 Logistic Regression is a classification algorithm
 
@@ -162,7 +162,7 @@ One-vs-all
 Train a logistic regression classifier hθ(x) for each class to predict the probability that y = i  
 To make a prediction on a new x, pick the class that maximizes hθ(x)
 
-# Regularization
+# 4. Regularization
 
 ## Overfitting
 
@@ -193,7 +193,7 @@ Logistic Regression
 - Gradient Descent: adding λ⋅θ^2 term at the end of cost function when θ(1)~θ(n)
 - Advanced Optimization: same as above
 
-# Neural Networks
+# 5. Neural Networks
 
 Complex nonlinear hypothesis with large number of features
 - overfitting problem
@@ -259,7 +259,7 @@ Defaults: 1 hidden layer. If you have more than 1 hidden layer, then it is recom
 5) Use gradient checking to confirm that your backpropagation works. Then disable gradient checking
 6) Use gradient descent or a built-in optimization function to minimize the cost function with the weights in theta
 
-# Machine Learning System Design
+# 6. Machine Learning System Design
 
 ## Evaluating the Hypothesis
 
@@ -344,7 +344,7 @@ Using feature x that has sufficient information to predict y accurately
 Using a low bias algorithm with many parameters  
 Using a very large training set resulting in low variance
 
-# Support Vector Machine
+# 7. Support Vector Machine
 
 Powerful classification algorithm for data with small features and intermediate data size
 
@@ -408,7 +408,7 @@ If n is small, m is large: Create/add more features, then use logistic regressio
 
 Neural network likely to work well for most of these settings, but may be slower to train.
 
-# Clustering
+# 8. Clustering
 
 Applications of clustering
 - Market segmentation
@@ -451,7 +451,7 @@ Finds K where the cost doesn't meaningfully decrease anymore
 
 Ultimately, choose K that performs best for the purpose
 
-# Dimensionality Reduction
+# 9. Dimensionality Reduction
 
 Applications of dimensionality reduction
 
@@ -504,7 +504,7 @@ or
 Choose smallest value of k for which  
 sum~k(S_ii)/sum~m(S_ii) >= 0.99 or 0.95
 
-# Anomaly Detection
+# 10. Anomaly Detection
 
 Unsupervised learning algorithm for detecting anomaly
 
@@ -560,7 +560,7 @@ Supervised Learning
 - Large number of positive examples
 - Type of positive examples can be generalized and the future positive examples is likely to be a similar type
 
-# Recommender Systems
+# 11. Recommender Systems
 
 A subclass of information filtering system  
 that seeks to predict the "rating" or "preference" a user would give to an item (special application of machine learning)
@@ -590,7 +590,7 @@ Use Y - μ instend of Y for all existing ratings, predict user's rating on conte
 - μ = mean of existing ratings from all users
 - Y = ratings
 
-# Large Scale Machine Learning
+# 12. Large Scale Machine Learning
 
 High bias problem : add more features and etc  
 High variance problem : get more data and etc
@@ -629,7 +629,7 @@ A Model can automatically adapt to changing user behavior or trend
 Software library may support using map-reduce as if we're dealing with one data set  
 Network speed between machines may slow down parallel computation speed a little
 
-# End-to-end Application Example of Machine Learning
+# 13. End-to-end Application Example of Machine Learning
 
 ## Machine learning pipeline
 
