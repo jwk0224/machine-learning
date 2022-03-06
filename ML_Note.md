@@ -162,6 +162,8 @@ One-vs-all
 Train a logistic regression classifier hθ(x) for each class to predict the probability that y = i  
 To make a prediction on a new x, pick the class that maximizes hθ(x)
 
+# Regularization
+
 ## Overfitting
 
 Hypothesis function fits the available data but does not generalize well to predict new data
@@ -179,7 +181,7 @@ To address overfitting problem
 
 The λ, or lambda, is the regularization parameter for extra summation to hypothesis function.
 
-# Regularization
+## Regularization
 
 Penalize all parameters to become somewhat reduced values
 
@@ -257,7 +259,9 @@ Defaults: 1 hidden layer. If you have more than 1 hidden layer, then it is recom
 5) Use gradient checking to confirm that your backpropagation works. Then disable gradient checking
 6) Use gradient descent or a built-in optimization function to minimize the cost function with the weights in theta
 
-# Evaluating the Hypothesis
+# Machine Learning System Design
+
+## Evaluating the Hypothesis
 
 1) Divide data into training(60%)/cross validation(20%)/test Set(20%)
 2) Create list of λ
