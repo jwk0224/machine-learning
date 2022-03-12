@@ -6,11 +6,11 @@ Supervised learning
 - Linear regression
 - Logistic regression
 - Neural networks
-- SVMs
+- Support vector machine
 
 Unsupervised learning
 - K-means clustering
-- PCA
+- Principal component analysis
 - Anomaly detection
 
 Special applications/special topics
