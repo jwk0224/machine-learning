@@ -61,7 +61,7 @@ Derive structure from data with little or no idea what results should look like
 
 ## Cost Function
 
-= Squared Error Function = Mean squared error
+= Squared error function = Mean squared error
 
 Measuring the accuracy of the hypothesis function by using a cost function
 
